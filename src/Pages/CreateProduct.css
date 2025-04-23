@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+
+
+#createCard {
+    font-family: "Doppio One", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input input {
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.enter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    justify-items: center;
+}
+
+.enter button {
+    font-family: "Doppio One", sans-serif;
+
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+}

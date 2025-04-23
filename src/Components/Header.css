@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #F4F3F2;
+    font-family: "Doppio One", sans-serif;
+    justify-content: start;
+    border-bottom: 1px solid #333333;
+}
+
+
+
+#navBarLogo {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 10px;
+
+}
+
+#navBarLogo a {
+    font-family: "Doppio One", sans-serif;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+.navBarElement {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.navBarElement a {
+    font-family: "Doppio One", sans-serif;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500px;
+}
+
+.navBarElement a:hover {
+    color: #928d7f;
+}
+
+.navBarSearch {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.navBarSearch input {
+    padding-left: 8px;
+
+    height: 25px;
+    width: 200px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+
+
+    background-color: #F4F3F2;
+    outline: none;
+}
+
+.navBarSearch input::placeholder {
+    font-family: "Doppio One", sans-serif;
+    font-weight: normal;
+    color: #5A5B5D;
+}
+
+.search-icon {
+    position: absolute;
+    left: 185px;
+    color: #333333;
+
+}
+
+#cartIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    width: 20px;
+    height: 20px;
+}
+
+#cartIcon:hover {
+    color: #A09880;
+}
