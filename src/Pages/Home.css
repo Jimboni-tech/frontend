@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+.products-container {
+    display:grid;
+    width: 100%;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    font-family: "Doppio One", sans-serif!important;
+}
+.product-card {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+    height: 600px;
+    
+
+}
+
+.product-image {
+    margin-top: 10px;
+    background-color: rgb(236, 236, 236);
+    width: 350px;
+    height: 350px;
+}
+
+.product-details {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+
+}
+
+.product-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+.product-description {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.product-price {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.product-category {
+    color: #777;
+    font-size: 0.8em;
+    margin-left: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.product-category::before {
+    content: "•";
+    margin-right: 4px;
+    opacity: 0.5;
+}
