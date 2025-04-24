@@ -7,7 +7,7 @@ app.use(cors());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '!',
+    password: '1playclarinetF0818!',
     database: 'practice'
 })
 db.connect(err => {
@@ -32,12 +32,12 @@ app.get('/home', (req,res) => {
 });
 
 app.post('/create', (req, res) => {
-     const q = "INSERT INTO products (`name`, `image`, `description`, `price`) VALUES (?)"
+    const q = "INSERT INTO products (`name`, `image`, `description`, `price`, `category`) VALUES (?)"
     const {name, image, description, price, category} = req.body;
     const values = [name, image, description, price, category]
     db.query(q, [values], (err, data) => {
         if (err) return err
-        return res.json("Product created!", data)
+        return res.json("Product created!: ", data)
     })
 
 });
